@@ -49,6 +49,11 @@ SULogger.m SULogboard.m
 }
 ```
 
+####效果图
+实时显示log输出日志
+![SULoggerGIF1.gif](http://upload-images.jianshu.io/upload_images/1644426-bdceb9f937018420.gif?imageMogr2/auto-orient/strip)
+能滚动查看历史log信息，期间将停止自动滚动到最新日志
+![SULoggerGIF2.gif](http://upload-images.jianshu.io/upload_images/1644426-640d6353cf710bcb.gif?imageMogr2/auto-orient/strip)
 
 
 ####提醒
