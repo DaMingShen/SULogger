@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B55D0DA1C8A0312009E3F01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B55D0D91C8A0312009E3F01 /* main.m */; };
+		2B55D0DD1C8A0312009E3F01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B55D0DC1C8A0312009E3F01 /* AppDelegate.m */; };
+		2B55D0E01C8A0312009E3F01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B55D0DF1C8A0312009E3F01 /* ViewController.m */; };
+		2B55D0E31C8A0312009E3F01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B55D0E11C8A0312009E3F01 /* Main.storyboard */; };
+		2B55D0E51C8A0312009E3F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B55D0E41C8A0312009E3F01 /* Assets.xcassets */; };
+		2B55D0E81C8A0312009E3F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B55D0E61C8A0312009E3F01 /* LaunchScreen.storyboard */; };
+		2B55D0F41C8A0327009E3F01 /* SULogboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B55D0F11C8A0327009E3F01 /* SULogboard.m */; settings = {ASSET_TAGS = (); }; };
+		2B55D0F51C8A0327009E3F01 /* SULogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B55D0F31C8A0327009E3F01 /* SULogger.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B55D0D51C8A0312009E3F01 /* SULoggerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SULoggerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B55D0D91C8A0312009E3F01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B55D0DB1C8A0312009E3F01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B55D0DC1C8A0312009E3F01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B55D0DE1C8A0312009E3F01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B55D0DF1C8A0312009E3F01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B55D0E21C8A0312009E3F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B55D0E41C8A0312009E3F01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B55D0E71C8A0312009E3F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B55D0E91C8A0312009E3F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B55D0F01C8A0327009E3F01 /* SULogboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SULogboard.h; sourceTree = "<group>"; };
+		2B55D0F11C8A0327009E3F01 /* SULogboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SULogboard.m; sourceTree = "<group>"; };
+		2B55D0F21C8A0327009E3F01 /* SULogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SULogger.h; sourceTree = "<group>"; };
+		2B55D0F31C8A0327009E3F01 /* SULogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SULogger.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B55D0D21C8A0312009E3F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B55D0CC1C8A0312009E3F01 = {
+			isa = PBXGroup;
+			children = (
+				2B55D0D71C8A0312009E3F01 /* SULoggerDemo */,
+				2B55D0D61C8A0312009E3F01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B55D0D61C8A0312009E3F01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B55D0D51C8A0312009E3F01 /* SULoggerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B55D0D71C8A0312009E3F01 /* SULoggerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2B55D0EF1C8A0327009E3F01 /* SULogger */,
+				2B55D0DB1C8A0312009E3F01 /* AppDelegate.h */,
+				2B55D0DC1C8A0312009E3F01 /* AppDelegate.m */,
+				2B55D0DE1C8A0312009E3F01 /* ViewController.h */,
+				2B55D0DF1C8A0312009E3F01 /* ViewController.m */,
+				2B55D0E11C8A0312009E3F01 /* Main.storyboard */,
+				2B55D0E41C8A0312009E3F01 /* Assets.xcassets */,
+				2B55D0E61C8A0312009E3F01 /* LaunchScreen.storyboard */,
+				2B55D0E91C8A0312009E3F01 /* Info.plist */,
+				2B55D0D81C8A0312009E3F01 /* Supporting Files */,
+			);
+			path = SULoggerDemo;
+			sourceTree = "<group>";
+		};
+		2B55D0D81C8A0312009E3F01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B55D0D91C8A0312009E3F01 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B55D0EF1C8A0327009E3F01 /* SULogger */ = {
+			isa = PBXGroup;
+			children = (
+				2B55D0F01C8A0327009E3F01 /* SULogboard.h */,
+				2B55D0F11C8A0327009E3F01 /* SULogboard.m */,
+				2B55D0F21C8A0327009E3F01 /* SULogger.h */,
+				2B55D0F31C8A0327009E3F01 /* SULogger.m */,
+			);
+			path = SULogger;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B55D0D41C8A0312009E3F01 /* SULoggerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B55D0EC1C8A0312009E3F01 /* Build configuration list for PBXNativeTarget "SULoggerDemo" */;
+			buildPhases = (
+				2B55D0D11C8A0312009E3F01 /* Sources */,
+				2B55D0D21C8A0312009E3F01 /* Frameworks */,
+				2B55D0D31C8A0312009E3F01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SULoggerDemo;
+			productName = SULoggerDemo;
+			productReference = 2B55D0D51C8A0312009E3F01 /* SULoggerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B55D0CD1C8A0312009E3F01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = KevinSu;
+				TargetAttributes = {
+					2B55D0D41C8A0312009E3F01 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 2B55D0D01C8A0312009E3F01 /* Build configuration list for PBXProject "SULoggerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B55D0CC1C8A0312009E3F01;
+			productRefGroup = 2B55D0D61C8A0312009E3F01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B55D0D41C8A0312009E3F01 /* SULoggerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B55D0D31C8A0312009E3F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B55D0E81C8A0312009E3F01 /* LaunchScreen.storyboard in Resources */,
+				2B55D0E51C8A0312009E3F01 /* Assets.xcassets in Resources */,
+				2B55D0E31C8A0312009E3F01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B55D0D11C8A0312009E3F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B55D0E01C8A0312009E3F01 /* ViewController.m in Sources */,
+				2B55D0F51C8A0327009E3F01 /* SULogger.m in Sources */,
+				2B55D0F41C8A0327009E3F01 /* SULogboard.m in Sources */,
+				2B55D0DD1C8A0312009E3F01 /* AppDelegate.m in Sources */,
+				2B55D0DA1C8A0312009E3F01 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B55D0E11C8A0312009E3F01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B55D0E21C8A0312009E3F01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B55D0E61C8A0312009E3F01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B55D0E71C8A0312009E3F01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B55D0EA1C8A0312009E3F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B55D0EB1C8A0312009E3F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B55D0ED1C8A0312009E3F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SULoggerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinSu.SULoggerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B55D0EE1C8A0312009E3F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SULoggerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinSu.SULoggerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B55D0D01C8A0312009E3F01 /* Build configuration list for PBXProject "SULoggerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B55D0EA1C8A0312009E3F01 /* Debug */,
+				2B55D0EB1C8A0312009E3F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B55D0EC1C8A0312009E3F01 /* Build configuration list for PBXNativeTarget "SULoggerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B55D0ED1C8A0312009E3F01 /* Debug */,
+				2B55D0EE1C8A0312009E3F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B55D0CD1C8A0312009E3F01 /* Project object */;
+}
