@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author   = { 'DaMingShen' => '446135517@qq.com' }
   s.source   = { :git => 'https://github.com/DaMingShen/SULogger.git', :tag => "1.0" }
   s.platform = :ios  
-  s.source_files = "SULogger.{h,m}"
+  s.source_files = "SULogger/*.{h,m}"
   s.framework = 'UIKit'
   s.requires_arc = true
 end
