@@ -94,7 +94,8 @@
 				2B55D0F21C8A0327009E3F01 /* SULogger.h */,
 				2B55D0F31C8A0327009E3F01 /* SULogger.m */,
 			);
-			path = SULogger;
+			name = SULogger;
+			path = ../SULogger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,6 +321,7 @@
 				2B55D0EE1C8A0312009E3F01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
