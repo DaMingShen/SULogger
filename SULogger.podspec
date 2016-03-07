@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name     = 'SULogger' 
   s.version  = ‘1.0’ 
-  s.license  = "MIT"  //开源协议
+  s.license  = "MIT"
   s.summary  = 'a easy tool that can show logs in real time when debugging on real machine' 
   s.homepage = 'https://github.com/DaMingShen/SULogger.git'
   s.author   = { 'DaMingShen' => '446135517@qq.com' }
